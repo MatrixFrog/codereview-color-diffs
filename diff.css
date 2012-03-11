@@ -1,0 +1,16 @@
+
+.added, .removed, .line-numbers, .filename {
+  font-weight: bold;
+}
+
+.added {
+  color: green;
+}
+
+.removed {
+  color: red;
+}
+
+.line-numbers {
+  color: blue;
+}

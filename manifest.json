@@ -1,0 +1,15 @@
+{
+  "name": "Colorize Chromium code review diffs",
+  "version": "1.0",
+  "description": "Adds colors to diffs on codereview.chromium.org",
+  "content_scripts": [
+    {
+      "matches": [
+        "http://codereview.chromium.org/download/*.diff",
+        "https://chromiumcodereview.appspot.com/download/*.diff"
+      ],
+      "css": ["diff.css"],
+      "js": ["diff.js"]
+    }
+  ]
+}
