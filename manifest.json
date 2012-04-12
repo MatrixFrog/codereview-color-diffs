@@ -6,7 +6,9 @@
     {
       "matches": [
         "http://codereview.chromium.org/download/*.diff",
-        "https://chromiumcodereview.appspot.com/download/*.diff"
+        "https://chromiumcodereview.appspot.com/download/*.diff",
+        "http://build.chromium.org/p/tryserver.chromium/builders/*/builds/*/steps/update/logs/patch",
+        "http://chromegw.corp.google.com/i/tryserver.chromium/builders/*/builds/*/steps/update/logs/patch"
       ],
       "css": ["diff.css"],
       "js": ["diff.js"]
