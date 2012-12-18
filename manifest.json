@@ -6,7 +6,7 @@
   "content_scripts": [
     {
       "matches": [
-        "http://codereview.chromium.org/download/*.diff",
+        "*://codereview.chromium.org/download/*.diff",
         "https://chromiumcodereview.appspot.com/download/*.diff",
         "http://build.chromium.org/p/tryserver.chromium/builders/*/builds/*/steps/update/logs/patch",
         "http://chromegw.corp.google.com/i/tryserver.chromium/builders/*/builds/*/steps/update/logs/patch"
