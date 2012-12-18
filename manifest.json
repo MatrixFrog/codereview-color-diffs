@@ -1,6 +1,6 @@
 {
   "name": "Colorize Chromium code review diffs",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 2,
   "description": "Adds colors to diffs on codereview.chromium.org",
   "content_scripts": [
