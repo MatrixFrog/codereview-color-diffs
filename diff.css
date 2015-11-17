@@ -4,7 +4,7 @@
 }
 
 .added {
-  color: green;
+  color: #0c0;  /* For contrast; "green" is actually #008000. */
 }
 
 .removed {
